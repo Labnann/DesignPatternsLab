@@ -1,4 +1,4 @@
-import {BoldWriting, ItalicWriting, PlaneWriting, StrikeThroughWriting, Writing} from "../../Writing";
+import {BoldWriting, ItalicWriting, PlaneWriting, StrikeThroughWriting, Writing} from "../../src/Writing";
 
 let textData: Writing = new PlaneWriting("HelloWorld");
 

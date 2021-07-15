@@ -1,4 +1,3 @@
-## Running Guide
 
 Clone the Repository:
 
@@ -17,8 +16,9 @@ Or with yarn:
 
 `yarn`
 
+Then you can make your changes. After doing the changes you can do the following for building.
 
-Then Build the Project:
+You can  build the Project:
 
 `npm run build`
 

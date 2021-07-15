@@ -1,3 +1,4 @@
+## Contributing Guidelines
 
 Clone the Repository:
 
@@ -27,3 +28,5 @@ Or with yarn:
 
 
 Then you can run the "index.html" file located in `./builds` directory
+
+Thanks for your contributions!

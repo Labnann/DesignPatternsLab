@@ -1,4 +1,8 @@
-import {BoldWriting, ItalicWriting, PlaneWriting, StrikeThroughWriting, Writing} from "./Writing";
+import {Writing} from "./Writings/Writing";
+import {PlaneWriting} from "./Writings/PlaneWriting";
+import {BoldWriting} from "./Writings/Decorations/BoldWriting";
+import {ItalicWriting} from "./Writings/Decorations/ItalicWriting";
+import {StrikeThroughWriting} from "./Writings/Decorations/StrikeThroughWriting";
 
 
 const textElement = document.querySelector("#text") as HTMLElement;
@@ -25,6 +29,7 @@ const wrapWithStrike = () =>{
 
 const changeText = ()=>{
     setText(inputField.value);
+    writing = new PlaneWriting(inputField.value);
 }
 
 

@@ -3,7 +3,7 @@ You can run the project by simply running the "./builds/index.html" in any moder
 
 <hr>
 
-[Click here](./contributing.md) file for compiling guidelines
+[Click here](./Contributing.md) file for compiling guidelines
 
 <hr>
 
